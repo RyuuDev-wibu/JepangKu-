@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>JepangKu! | Nihongo Course</title>
+</head>
+
+<body>
+    <div>
+        <header class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+            <div class="container mx-auto flex items-center justify-between px-4 py-3">
+                <a href="#" class="text-2xl font-bold text-red-600">JepangKu!</a>
+                <button id="nav-toggle" class="text-red-600 md:hidden focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+                <nav id="nav-menu"
+                    class="hidden absolute top-full left-0 w-full bg-white border-t md:border-none md:static md:flex md:space-x-6 md:items-center md:w-auto md:bg-transparent  md:text-left">
+                    <a href="#home"
+                        class="block py-3 px-4 text-gray-700 hover:bg-red-500 hover:text-white rounded transition duration-300 ease-in-out">Beranda</a>
+                    <a href="#tentang"
+                        class="block py-3 px-4 text-gray-700 hover:bg-red-500 hover:text-white rounded transition duration-300 ease-in-out">Tentang</a>
+                    <a href="#program"
+                        class="block py-3 px-4 text-gray-700 hover:bg-red-500 hover:text-white rounded transition duration-300 ease-in-out">Program</a>
+                    <a href="#galeri"
+                        class="block py-3 px-4 text-gray-700 hover:bg-red-500 hover:text-white rounded transition duration-300 ease-in-out">Galeri</a>
+                    <a href="#testimoni"
+                        class="block py-3 px-4 text-gray-700 hover:bg-red-500 hover:text-white rounded transition duration-300 ease-in-out">Testimoni</a>
+
+                    <a href="https://wa.me/6281252456382?text=Halo%20kak%2C%20saya%20sangat%20berminat%20untuk%20mendaftar%20program%20kursus%20bahasa%20Jepang%20di%20*JepangKu!*%20Saya%20ingin%20mendapatkan%20informasi%20lebih%20lanjut%20mengenai%20jadwal%2C%20biaya%2C%20dan%20cara%20pendaftaran.%20Terima%20kasih%21"
+                    target="_blank" class="bg-red-500 hover:bg-red-600 text-white py-2 px-6 rounded-lg"
+                        class="block py-3 px-4 text-white bg-red-500 border border-red-500 rounded hover:bg-white hover:text-red-500 transition duration-300 ease-in-out">
+                        Daftar
+                    </a>
+                </nav>
+            </div>
+        </header>
+        <section id="home" class="bg-red-100 py-16 px-4 text-center mt-10">
+            <h1 class="text-4xl md:text-5xl font-bold text-red-700 mb-4">Selamat Datang di <span
+                    class="text-red-600">JepangKu!</span></h1>
+            <p class="text-lg md:text-xl text-gray-700 mb-6">Belajar Bahasa Jepang dari Dasar hingga Lulus JLPT N5!</p>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-4">
+                <a href="https://wa.me/6281252456382?text=Halo%20kak%2C%20saya%20sangat%20berminat%20untuk%20mendaftar%20program%20kursus%20bahasa%20Jepang%20di%20*JepangKu!*%20Saya%20ingin%20mendapatkan%20informasi%20lebih%20lanjut%20mengenai%20jadwal%2C%20biaya%2C%20dan%20cara%20pendaftaran.%20Terima%20kasih%21"
+                    target="_blank" class="bg-red-500 hover:bg-red-600 text-white py-2 px-6 rounded-lg">
+                    Daftar Sekarang
+                </a>
+
+                <a href="./jadwalkelas.html"
+                    class="bg-white border border-red-500 text-red-500 hover:bg-red-100 py-2 px-6 rounded-lg">Cek Jadwal
+                    Kelas</a>
+            </div>
+        </section>
+        <section id="tentang" class="bg-white py-16 px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">Tentang Kami</h2>
+            <div class="max-w-3xl mx-auto text-gray-700 text-lg space-y-4">
+                <p>JepangKu! adalah lembaga kursus Bahasa Jepang khusus level dasar (N5) untuk pemula.</p>
+                <p><strong>Visi:</strong> Menjadi kursus Bahasa Jepang N5 terbaik untuk pemula.</p>
+                <p><strong>Misi:</strong></p>
+                <ul class="list-disc ml-6 space-y-1">
+                    <li>Menyediakan pembelajaran N5 lengkap dan mudah dipahami</li>
+                    <li>Membantu siswa lulus JLPT N5</li>
+                    <li>Menghadirkan suasana belajar yang interaktif dan suportif</li>
+                </ul>
+            </div>
+        </section>
+        <section id="program" class="bg-gray-50 py-16 px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-10">Program Kursus</h2>
+            <div class="max-w-4xl mx-auto">
+                <p class="text-lg mb-6 text-gray-700">📌 Kursus N5 Dasar | Durasi: 4 bulan | Format: Online / Offline
+                </p>
+                <ul class="list-disc text-gray-700 space-y-2 ml-6 mb-10">
+                    <li>Hiragana, Katakana, Kanji dasar</li>
+                    <li>Tata bahasa dasar (bunpou)</li>
+                    <li>Kosakata & percakapan sehari-hari</li>
+                    <li>Latihan soal JLPT N5</li>
+                </ul>
+                <div class="overflow-x-auto">
+                    <table class="w-full border border-gray-300 text-sm md:text-base text-center text-gray-700">
+                        <thead class="bg-red-200">
+                            <tr>
+                                <th class="p-3 border">Paket</th>
+                                <th class="p-3 border">Harga/Bulan</th>
+                                <th class="p-3 border">Fasilitas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-white">
+                                <td class="p-3 border">Reguler</td>
+                                <td class="p-3 border">Rp25.000</td>
+                                <td class="p-3 border">Kelas 2x/minggu, eBook, grup diskusi</td>
+                            </tr>
+                            <tr class="bg-gray-50">
+                                <td class="p-3 border">Intensif</td>
+                                <td class="p-3 border">Rp50.000</td>
+                                <td class="p-3 border">Kelas 3x/minggu, simulasi JLPT, sertifikat</td>
+                            </tr>
+                            <tr class="bg-white">
+                                <td class="p-3 border">Privat</td>
+                                <td class="p-3 border">Rp100.000</td>
+                                <td class="p-3 border">Jadwal bebas, 1-on-1 dengan tutor</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section id="galeri" class="bg-white py-16 px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">Galeri</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div class="bg-gray-100 h-48 flex items-center justify-center overflow-hidden">
+                    <img src="./assets/JepangKu!.1.jpg" alt="Foto Kelas 1" class="h-full w-full object-cover" />
+                </div>
+                <div class="bg-gray-100 h-48 flex items-center justify-center overflow-hidden">
+                    <img src="./assets/JepangKu!.2.jpg" alt="Foto Kelas 2" class="h-full w-full object-cover" />
+                </div>
+                <div class="bg-gray-100 h-48 flex items-center justify-center overflow-hidden">
+                    <img src="./assets/JepangKu!.3.jpg" alt="Foto Kelas 3" class="h-full w-full object-cover" />
+                </div>
+            </div>
+        </section>
+
+        <section id="testimoni" class="bg-red-50 py-16 px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">Testimoni</h2>
+            <div class="max-w-4xl mx-auto space-y-6">
+                <blockquote class="bg-white p-6 rounded-xl shadow-md">
+                    <p class="text-gray-700 italic\">"Seru Sekali Belajar di JepangKu!, Pembelajarannya Tidak
+                        Membosankan, Pengajarnya sabar dan
+                        materinya jelas."</p>
+                    <p class="text-right text-red-600 mt-2\">— Rei</p>
+                </blockquote>
+                <blockquote class="bg-white p-6 rounded-xl shadow-md">
+                    <p class="text-gray-700 italic\">"Cocok banget buat pemula, bisa belajar dari nol!"</p>
+                    <p class="text-right text-red-600 mt-2\">— kei.</p>
+                </blockquote>
+            </div>
+        </section>
+        <section class="bg-gray-100 py-16 px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">Kontak Kami</h2>
+            <div class="max-w-xl mx-auto  text-lg text-gray-700 space-y-4">
+                <p><i class="fa-brands fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/6281252456382"
+                        class="text-red-500 font-bold">Ryuu</a>
+                </p>
+                <p><i class="fa-regular fa-envelope"></i> Email: <a href="mailto:jepangku.nihongo.course@gmail.com"
+                        class="text-red-500 font-bold">jepang.nihongo.course@gmail.com</a>
+                <p><i class="fa-solid fa-location-dot"></i> Lokasi: Perumahan Sirod 4 blok A14, Curah kembang, Ngenep,
+                    Karangploso, Malang</p>
+                <p><i class="fa-brands fa-instagram"></i> Instagram: <a
+                        href="https://instagram.com/jepangku.nihongo.course"
+                        class="text-red-500 font-semibold">@jepangku.nihongo.course</a></p>
+            </div>
+        </section>
+
+        <footer class="bg-red-600 text-white text-center py-3">
+            <h2 class="text-xl font-bold">JepangKu!</h2>
+            <p class="text-sm mt-1 mb-4 text-red-100">Belajar Bahasa Jepang dasar dengan mudah & menyenangkan.</p>
+
+            <div class="flex justify-center gap-6 text-sm">
+                <a href="#home" class="hover:underline font-semibold hove:">Beranda</a>
+                <a href="#tentang" class="hover:underline font-semibold">Tentang</a>
+                <a href="#program" class="hover:underline font-semibold">Kursus</a>
+                <a href="#kontak" class="hover:underline font-semibold">Kontak</a>
+            </div>
+
+            <p class="text-xs text-red-100 mt-6">© 2025 JepangKu! | Nihongo Course. All rights reserved.</p>
+        </footer>
+    </div>
+
+
+    <script>
+        const toggle = document.getElementById('nav-toggle');
+        const menu = document.getElementById('nav-menu');
+        toggle.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
